@@ -1,0 +1,88 @@
+body { background-image: url(Background.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+h1 {
+	text-shadow: 2px 2px 6px #660033;
+	text-align: center;
+}
+
+
+
+.Portrait { /*Style for the passphoto on about me*/
+    max-width:20%;
+    height:auto;
+    margin-right: 48px;float: right;
+    margin-top: 20px;float: top;
+}
+
+.Menu { /*Style for the navigation bar*/
+ 	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #660033;
+}
+
+.active { /*Style for the navigation bar, this colours the active page*/
+	background-color: #111;
+}
+
+.MB { /*Style for the menu buttons*/
+     float: left;
+}
+
+li a { /*Style for the navigation bar*/
+ 	 display: block;
+ 	 color: white;
+ 	 text-align: center;
+ 	 padding: 14px 16px;
+ 	 text-decoration: none;
+}
+
+li a:hover { /*Style for when you hover over the menu buttons*/
+  	 background-color: #111;
+}
+
+
+.Hobbies {
+list-style-type: circle;
+
+}
+
+table {
+border: 2px solid black;
+border-collapse: collapse;
+
+}
+
+td, th {
+  border: 2px solid #660033;
+  text-align: left;
+  padding: 8px;
+}
+
+.insta {
+ width: 11%;
+ height: auto;
+ padding-left: 20px;
+ position: static;
+ 
+}
+
+.facebook {
+ width: 14%;
+ height: auto;
+ position: static;
+ 
+}
+
+.linked {
+ width: 10%;
+ height: auto;
+ padding-left: 30px;
+ padding-top: 10px;
+ position: static;
+
+}
